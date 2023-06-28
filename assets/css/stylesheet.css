@@ -1,0 +1,97 @@
+/* Global styles */
+
+/* Set box-sizing, margin, and padding for all elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* Set font family and line height */
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/* Header styles */
+
+header {
+    /* Set background color, padding, text alignment, and text color for the header */
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+    header h1 {
+        /* Set font size for the heading inside the header */
+        font-size: 24px;
+    }
+
+/* Main content styles */
+
+main {
+    /* Set max width, margin, and padding for the main content area */
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+section:not(:last-child) {
+    /* Add margin at the bottom of each section, except the last one */
+    margin-bottom: 20px;
+}
+
+.hide {
+    /* Hide the element */
+    display: none;
+}
+
+/* Choices styles */
+
+#choices {
+    /* Set display type, grid template columns, and gap for the choices */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+button {
+    /* Set padding, border, background color, text color, and cursor for the button */
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+    button:hover {
+        /* Change background color of the button when hovering */
+        background-color: #555;
+    }
+
+/* Score form styles */
+
+#score-form {
+    /* Set text alignment and margin for the score form */
+    text-align: center;
+    margin-top: 20px;
+}
+
+    #score-form label {
+        /* Set font weight and margin for the labels inside the score form */
+        font-weight: bold;
+        margin-right: 5px;
+    }
+
+    #score-form input {
+        /* Set width, padding, and text transformation for the input fields inside the score form */
+        width: 50px;
+        padding: 5px;
+        text-transform: uppercase;
+    }
+
+    #score-form button {
+        /* Add margin on the top of the button inside the score form */
+        margin-top: 10px;
+    }
